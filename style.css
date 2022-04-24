@@ -1,0 +1,20 @@
+html {
+  font-family: 'Syne Mono', 'Courier New', Courier, monospace;
+}
+
+button {
+  font-family: 'Syne Mono', 'Courier New', Courier, monospace;
+}
+
+#menu {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+}
+
+#menu button {
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 4px;
+}

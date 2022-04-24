@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SET Reloaded</title>
+
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="screen" id="menu">
+    <h1>Set Realoaded</h1>
+    <hr>
+    <button>Challenge</button><br>
+    <button onclick="readyCustom()">Training</button>
+    <button onclick="resetProgress()">Reset Progress</button>
+  </div>
+  <div class="screen" id="custom">
+    <button onclick="switchScreen('menu')">Back</button>
+    <hr>
+    <select id="custom_prop"></select>
+    <select id="custom_card"></select>
+    <hr>
+    <button onclick="custom()">Play Custom</button>
+  </div>
+</body>
+</html>
